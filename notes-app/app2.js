@@ -1,0 +1,11 @@
+const validator=require('validator')
+console.log(validator.isEmail('rohit.wandre@yahoo.com'))
+console.log(validator.isURL('https://www.facebook.com'))
+const chalk=require('chalk')
+const yargs=require('yargs')
+console.log(chalk.magenta.bold('hello world'))
+console.log(process.argv)
+console.log(yargs.argv)
+//Customized yargs version
+yargs.version('1.1.0')
+console.log(yargs.argv)

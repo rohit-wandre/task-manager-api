@@ -1,0 +1,23 @@
+Node.js
+
+->JS on server(extending it's functionality from browser to server)
+->uses v8 engine(google chrome's engine)
+
+*Some terminal methods:--
+**type node on terminal to use JS commands..
+->process()
+->process.exit():- exits from node
+
+<----------NPM packages/libraries------>
+* validator.isEmail('String')//returns true for valid EmailId.
+* isURL()
+
+**Javascript is a single threaded programming language!!
+
+Node.js is a non-blocking(Asynchronous),event driven language..
+
+
+**Handlebars are used to provide dynamic templates in HTML file by which we can avoid using hardcoded strings
+**partials can be used to render same thing again and again
+
+->using both it makes our job easier to inject same pieces of data in multiple pages in a website
