@@ -21,3 +21,23 @@ Node.js is a non-blocking(Asynchronous),event driven language..
 **partials can be used to render same thing again and again
 
 ->using both it makes our job easier to inject same pieces of data in multiple pages in a website
+
+
+
+Git & Heroku commands:----------------->
+
+
+1. git status
+
+2.git add .
+
+3.git commit -m "message"
+
+4.git push origin master
+
+5.git push heroku master
+
+
+//heroku ko yahan se pata chalta hai application start kahan se kare--->
+
+package.json mei scripts ka object bana kar start property mei app.js ka path diya hai...
